@@ -1,7 +1,8 @@
 {
  "headers": {
   "/*" : {
-    "X-Author": "itmo307702"
+    "X-Author": "itmo307702",
+    "Access-Control-Allow-Origin": "*"
   }
  }
 }

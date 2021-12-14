@@ -9,21 +9,21 @@
     <button id="bt">Button</button> 
    
    <script> 
-     
-     
-document.getElementById("bt").addEventListener("click", function() {
-  
- fetch(document.getElementById("inp").value)
- .then((response) => {
-    return response.text();
-  })
-  .then((resp) => {
-    console.log(resp);
     
-    document.getElementById("inp").value = resp;
+   document.getElementById("bt").addEventListener("click", function() {
+
+    fetch(document.getElementById("inp").value)
+    .then((response) => {
+       return response.text();
+     })
+     .then((resp) => {
+       console.log(resp);
+
+       document.getElementById("inp").value = resp;
+
+     });
+   })
     
-  });
-})
    </script>
    
  </body>

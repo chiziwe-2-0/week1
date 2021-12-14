@@ -15,22 +15,22 @@
     "Access-Control-Allow-Origin": "*"
   },
   "/login/**": {
-    "X-Author": "chtest",
+    "X-Author": "itmo307702",
     "Content-Type": "text/plain; charset=UTF-8",
     "Access-Control-Allow-Origin": "*"
   },
   "/sample/**": {
-    "X-Author": "chtest",
+    "X-Author": "itmo307702",
     "Content-Type": "text/plain; charset=UTF-8",
     "Access-Control-Allow-Origin": "*"
   },
   "/promise/**": {
-    "X-Author": "chtest",
+    "X-Author": "itmo307702",
     "Content-Type": "text/plain; charset=UTF-8",
     "Access-Control-Allow-Origin": "*"
   },
   "/fetch/**": {
-    "X-Author": "chtest",
+    "X-Author": "itmo307702",
     "Content-Type": "text/html; charset=UTF-8",
     "Access-Control-Allow-Origin": "*"
   }
